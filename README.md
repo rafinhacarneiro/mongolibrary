@@ -7,7 +7,7 @@ Biblioteca para utilização do MongoDB com Robot Framework.
 ```bash
 pip install -e git+https://github.com/pypa/pipenv.git@master#egg=pipenv
 ```
-- Link do SpeedtestLibrary para instalação via pipenv no seu ambiente.
+- Link do MongoLibrary para instalação via pipenv no seu ambiente.
 ```bash
 pipenv install git+https://gitlab.com/rpa-automation/libraries/mongolibrary@master
 ```
