@@ -1,0 +1,9 @@
+README.rst
+setup.py
+MongoLibrary/MongoLibrary.py
+MongoLibrary/__init__.py
+MongoLibrary.egg-info/PKG-INFO
+MongoLibrary.egg-info/SOURCES.txt
+MongoLibrary.egg-info/dependency_links.txt
+MongoLibrary.egg-info/requires.txt
+MongoLibrary.egg-info/top_level.txt
