@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: MongoLibrary
-Version: 1.0.0
+Version: 1.1.0
 Summary: Biblioteca para utilização do MongoDB com Robot Framework
 Home-page: https://gitlab.com/rpa-automation/libraries/mongolibrary
 Author: Rafael Carneiro de Moraes

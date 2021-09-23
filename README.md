@@ -107,7 +107,7 @@ Args:
 - password (str, optional): Senha do usuário. Defaults to None.
 - database (str, optional): Um banco de dados para realizar as operações. Defaults to None.
 
-### Transformar Em Id
+### Transformar Texto Em Id
 Transforma uma string com ID em um objeto de ID do MongoDB para realizar as operações
 
 Args:
@@ -115,6 +115,15 @@ Args:
 
 Returns:
 - ObjectId: Objeto de ID do MongoDB
+
+### Transformar Id Em Text
+Transforma um objeto de ID do MongoDB em uma string com ID para realizar as operações
+
+Args:
+- id (ObjectId): Objeto de ID do MongoDB
+
+Returns:
+- str: String com uma ID do MongoDB
 
 ### Resgatar Databases
 

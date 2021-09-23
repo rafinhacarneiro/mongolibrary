@@ -51,7 +51,7 @@ class MongoLibrary:
         return [ ( field, self.sort_options[ value.strip().lower() ] ) for field, value in query ]
 
 
-    def transformar_em_id(
+    def transformar_texto_em_id(
         self,
         id: str
     ) -> ObjectId:
@@ -65,6 +65,22 @@ class MongoLibrary:
         """
 
         return ObjectId(id.strip())
+
+
+    def transformar_id_em_texto(
+        self,
+        id: ObjectId
+    ) -> str:
+        """Transforma um um objeto de ID do MongoDB em string com ID para realizar as operações
+
+        Args:
+            id (ObjectId): ID do MongoDB
+
+        Returns:
+            str: String com uma ID do MongoDB
+        """
+
+        return str(id)
 
 
     def conectar_mongodb(

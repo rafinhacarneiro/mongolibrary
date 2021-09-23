@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='MongoLibrary',
-    version='1.0.0',
+    version='1.1.0',
     description='Biblioteca para utilização do MongoDB com Robot Framework',
     license='MIT',
     packages=['MongoLibrary'],
