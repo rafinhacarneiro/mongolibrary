@@ -9,7 +9,7 @@ pip install -e git+https://github.com/pypa/pipenv.git@master#egg=pipenv
 ```
 - Link do MongoLibrary para instalação via pipenv no seu ambiente.
 ```bash
-pipenv install git+https://gitlab.com/rpa-automation/libraries/mongolibrary@master
+pipenv install git+https://github.com/rafinhacarneiro/mongolibrary@master
 ```
 - Pronto para uso importando desta forma.
 ```python
@@ -37,7 +37,7 @@ cd name-project
 
 - Add Library no conda.yaml via comando.
 ```bash
-rcc robot libs -a git+https://gitlab.com/rpa-automation/libraries/mongolibrary@master -p --conda conda.yaml
+rcc robot libs -a git+https://github.com/rafinhacarneiro/mongolibrary@master -p --conda conda.yaml
 ```
 
 - Adicionar no arquivo conda.yaml de forma manual.
@@ -48,7 +48,7 @@ dependencies:
 - python=3.7.5
 - pip=20.1
 - pip:
-  - git+https://gitlab.com/rpa-automation/libraries/mongolibrary@master
+  - git+https://github.com/rafinhacarneiro/mongolibrary@master
 ```
 
 - Executar o comanda para rodar o projeto e instalar dependências.
